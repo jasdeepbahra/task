@@ -2,7 +2,7 @@
 * @Author: bahraja
 * @Date:   2020-02-09 22:01:53
  * @Last Modified by: Jasdeep Bahra
- * @Last Modified time: 2020-02-11 13:17:06
+ * @Last Modified time: 2020-02-11 13:51:51
 * 
 */
 
@@ -24,12 +24,12 @@ const poolConfig = {
 };
 
 const connectionConfig = {
-    userName: 'DBAdminJSB',
-    password: 'Z!g}f6TYXE:p^U93AqQ',
-    server: 'jasdeepsb.database.windows.net',
+    userName: '',
+    password: '',
+    server: '',
     options: {
         encrypt: true,
-        database: 'users'
+        database: ''
     }
 };
   
