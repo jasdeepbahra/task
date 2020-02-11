@@ -1,0 +1,10 @@
+CREATE TABLE [dbo].[userData](
+	[ID] [int] IDENTITY(1,1) NOT NULL,
+	[first_name] [text] NOT NULL,
+	[surname] [text] NOT NULL,
+	[email] [text] NOT NULL,
+	[created] [text] NOT NULL
+) 
+GO
+
+
