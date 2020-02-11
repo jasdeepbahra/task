@@ -36,12 +36,14 @@ It allows the below operations:
   Delete
   Read
   
-  Before the postman collection is run there is a variable called URL which needs to be resolved 
+Before the postman collection is run there is a variable called URL which needs to be resolved. This vairable should be resolved with the server URL the api is runing on.
+  
+  eg: localhost:3000
   
   
 # Endpoints
 
-# /Create [http post] 
+# /create [http post] 
 
 The create endpoint uses a HTTP Post method and expects a body as below: 
 
@@ -60,14 +62,14 @@ This is a HTTP GET request which, when given a user ID, returns a record matchin
 
 eg. /user?userID=1
 
-# /Delete/ [http delete] 
+# /delete/ [http delete] 
 
 Delete User
 A HTTP Delete method, which when given a user ID deletes a record
 
 eg. /delete?userID=1
 
-# /Update/ [http put] 
+# /update/ [http put] 
 
 Update User
 A HTTP PUT method which, when given a user ID, it will update that record. If the user ID dose not exist, it will create a new user record.
